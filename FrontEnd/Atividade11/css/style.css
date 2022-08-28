@@ -56,7 +56,7 @@ main {
 }
 
 .delivery{
-   background-image: url(./img/delivery.jpg);
+   background-image: url(../img/delivery.jpg)
    background-size: cover;
    background-repeat: no-repeat;
    width: 490px;
