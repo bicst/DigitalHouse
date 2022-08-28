@@ -18,12 +18,15 @@
     justify-content: space-between;
  }
  
+ .logotipo{
+   margin-left: 20px;
+ }
  
  .menu{
+   justify-content: space-between;
    display: flex;
-   justify-content: space-around;
    height: 20px;
-   width: 279px;
+   width: 350px;
    margin-right: 50px;
  }
 
@@ -32,12 +35,10 @@
    font-family: 'Roboto';
    color: white;
    text-decoration: none;
-   justify-content: center;
    text-align: left;
    width: 276px;
    height: 19px;
-   left: 720px;
-   top: 40px;
+   left: 320px;
 }
 
 main {
@@ -56,7 +57,7 @@ main {
 }
 
 .delivery{
-   background-image: url(./img/delivery.jpg);
+   background-image: url(../img/delivery.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    width: 490px;
@@ -75,13 +76,12 @@ span {
    font-weight: 700px;
    font-size: 24px;
    line-height: 28px;
+   margin-top: 5px;
    
 }
 
 .div-menu{
-   
-   
-   width: 490px;
+    width: 490px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ span {
 
    align-items: center;
    justify-content: center;
-   margin-bottom: 20px;
+   margin-bottom: 80px;
 
  
 
