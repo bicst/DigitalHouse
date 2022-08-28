@@ -56,7 +56,7 @@ main {
 }
 
 .delivery{
-   background-image: url(../img/delivery.jpg)
+   background-image: url(../img/delivery.jpg);
    background-size: cover;
    background-repeat: no-repeat;
    width: 490px;
@@ -79,6 +79,8 @@ span {
 }
 
 .div-menu{
+   
+   
    width: 490px;
     height: 350px;
     display: flex;
@@ -86,7 +88,6 @@ span {
     align-items: center;
     justify-content: space-between;
    
-    margin-left: 5px;
 }
 
 
@@ -95,9 +96,11 @@ span {
    display:flex;
    width: 385px;
    height: 150px;
-   top: 520px;
+
    align-items: center;
    justify-content: center;
+   margin-bottom: 20px;
+
  
 
 }
@@ -105,7 +108,7 @@ span {
 .opcoes-sabores h2{
    font-family: 'Roboto';
    display: flex;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
    
 }
 
