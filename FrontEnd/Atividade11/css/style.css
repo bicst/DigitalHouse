@@ -60,9 +60,12 @@ main {
    background-size: cover;
    background-repeat: no-repeat;
    width: 490px;
-   height: 350px;
+   height: 350px   
    
-   
+}
+
+span {
+   color:white;
 }
 
 .delivery h2 {
