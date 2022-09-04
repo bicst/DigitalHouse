@@ -27,7 +27,7 @@
 }
 
 .select{
-    margin-left: 700px;
+    margin-left: 900px;
 
 }
 
@@ -66,7 +66,7 @@ header .menu{
     width:  400px;
     height: 20px;
     padding: 20px;
-    margin-left: 400px;
+    margin-left: 700px;
     
 }
 
@@ -124,17 +124,19 @@ header .menu ol #pata{
     color: black;
     text-align: center;
     margin-top:237px;
-    margin-left: 648px;
+    margin-left: 800px;
     padding-top: 10px;
+    border-radius: 15px;
 
   
 }
 
 .bg-img p{
     width: 365px;
-    margin-left: 648px;
+    margin-left: 800px;
     height: 19px;
     text-align: center;
+    padding:5px;
 
 
 
@@ -145,7 +147,7 @@ header .menu ol #pata{
 .secao1 #botao-comedouros{
     width: 141px;
     height: 49px;
-    margin-left: 767px;
+    margin-left: 900px;
     background-color: #F0A83E;
     border-radius: 10px;
     border-style: none;
@@ -168,7 +170,7 @@ header .menu ol #pata{
 .secao2 .produtos-destacados{
     width: 67px;
     height: 71px;
-    margin-left: 479px;
+    margin-left: 600px;
     margin-top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,8 +181,9 @@ header .menu ol #pata{
     width:300px;
     height: 47px;
     left: 100px;
-    margin-left: 350px;
+    margin-left: 500px;
     text-align: center;
+    
 
 }
 
@@ -188,7 +191,7 @@ header .menu ol #pata{
     flex-direction: row;
     text-decoration: none;
     width: 267px;
-    margin-left: 380px;
+    margin-left: 520px;
 
     
 
@@ -205,7 +208,7 @@ header .menu ol #pata{
     width: 834px;
     height: 312px;
     top: 720px;
-    left: 95px;
+    left: 200px;
 
 }
 
@@ -215,7 +218,7 @@ header .menu ol #pata{
     width: 834px;
     height: 312px;
     margin-top: 20px;
-    margin-left: 95px;
+    margin-left: 200px;
     
 }
 
@@ -254,7 +257,7 @@ header .menu ol #pata{
     width: 340px;
     height:264px;
     margin-top: 90px;
-    margin-left: 343px;
+    margin-left: 480px;
     
 }
 
@@ -338,7 +341,7 @@ header .menu ol #pata{
 .subs-email{
     font-size: small;
     color: #A0A0A0;
-    margin-left: 400px;
+    margin-left: 600px;
     width: 200px;
     background-color: white;
     padding: 10px;
