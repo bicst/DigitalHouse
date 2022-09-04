@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+
+:root{
+    --amarelo: #F0A83E;
+    --marrom:  #3C2313;
+    ---branco: white;
+    --cinza: #8A8787;
+    --preto: black;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+
+}
+
+/*DESCONTO*/
+
+.discont{
+    display: flex;
+    background-color: black;
+
+    width: 100%;
+    height: 20px;
+}
+
+.select{
+    margin-left: 700px;
+
+}
+
+.discont p{
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 62px;
+    background-color:#F0A83E;
+    
+}
+header #logotipo{
+    background-image: url(../img/Logo.png);
+
+}
+
+header .logotipo{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 167px;
+    height: 20px;
+    margin-left: 10px;
+    padding: 20px;
+      
+}
+
+header .menu{
+    display: flex;
+    width:  400px;
+    height: 20px;
+    padding: 20px;
+    margin-left: 400px;
+    
+}
+
+header .menu ol{
+    color: white;
+    list-style-image: url(../img/patinha.png);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F3F3F3;
+    width: 343px;
+    
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+       
+}
+
+.menu ol a{
+   
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header .menu ol #pata{
+    color: white;
+    display: flex;
+    width: 4px;
+}
+
+
+.secao1 #bg-img{
+    background-image: url(../img/img-fundo.png);
+    
+}
+
+.secao1 .bg-img{
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    border: 2px solid #8ED4AA;
+}
+
+.bg-img h2{
+    width: 365px;
+    height: 49px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top:237px;
+    margin-left: 648px;
+    padding-top: 10px;
+
+  
+}
+
+.bg-img p{
+    width: 365px;
+    margin-left: 648px;
+    height: 19px;
+    text-align: center;
+
+
+
+   
+}
+
+
+.secao1 #botao-comedouros{
+    width: 141px;
+    height: 49px;
+    margin-left: 767px;
+    background-color: #F0A83E;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.secao2{
+    
+    height:100%;
+    height:522px;
+
+
+
+}
+
+.secao2 .produtos-destacados {
+    background-image: url(../img/pata.png);
+}
+
+.secao2 .produtos-destacados{
+    width: 67px;
+    height: 71px;
+    margin-left: 479px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secao2  h2{
+
+    width:300px;
+    height: 47px;
+    left: 100px;
+    margin-left: 350px;
+    text-align: center;
+
+}
+
+.secao2 .produtos-nav {
+    flex-direction: row;
+    text-decoration: none;
+    width: 267px;
+    margin-left: 380px;
+
+    
+
+}
+
+.secao2 .produtos-nav a{
+    color:#8A8787;
+    text-decoration: none;
+}
+    
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+    height: 312px;
+    top: 720px;
+    left: 95px;
+
+}
+
+.produtos-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+    height: 312px;
+    margin-top: 20px;
+    margin-left: 95px;
+    
+}
+
+.produto-card {
+    width: 265px;
+    height: 265px;
+   align-items: center;
+    
+    
+
+}
+.produtos-cards #churrasquito{
+    background-image: url(../img/churrasquito.png);
+}
+
+
+.produtos-cards #comedouro{
+    background-image: url(../img/comedero.png);
+}
+
+.produtos-cards #ossinho{
+    background-image: url(../img/Huesito.png);
+}
+
+.produtos-cards h4{
+    text-align: center;
+    margin-top: 220px;
+}
+
+.produtos-cards p{
+    text-align: center;
+}
+
+.formulario{
+    justify-content: center;
+    width: 340px;
+    height:264px;
+    margin-top: 90px;
+    margin-left: 343px;
+    
+}
+
+.formulario h3{
+    text-align: center;
+    height:29px;
+    font-size: 25px;
+}
+.dados{
+    
+    width: 340px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 15px;
+
+    font-size: 10px;
+    background-color: #3C2313;
+    color: white;
+}
+
+.botao{
+    width: 230px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+.botao .limpar{
+    width: 110px;
+    height:34px;
+
+    border-radius: 15px;
+    border-style: none;
+
+}
+
+.botao .enviar{
+    width: 110px;
+    height:34px;
+
+    border-radius: 15px;
+    border-style: none;
+
+}
+
+.botao #enviar{
+    background-color: #F0A83E;
+}
+
+.botao #limpar{
+    background-color:#8A8787;
+}
+
+.subs{
+    width: 100%;
+    height: 60px;   
+    display: flex;
+    margin-top: 200px;
+    background-color: #F0A83E;
+    align-items: center;
+}
+
+.subs #subs-img{
+    background-image: url(../img/subs-img.png);
+}
+
+.subs-img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+
+}
+
+.subs-text{
+    margin-left: 10px;
+    color: white;
+    font-style: normal;
+}
+
+.subs-email{
+    font-size: small;
+    color: #A0A0A0;
+    margin-left: 400px;
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.subs-button{
+    font-size: small;
+    color: white;
+    text-align: center;
+    background-color: #3C2313;
+    width: 70px;
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;    
+    
+}
+
+footer{
+    background-color: #3C2313;
+    width: 100%;
+    height: 350px;
+    margin-top: 560px;
+    
+}   
+
+.contato{
+    width: 100%;
+    height: 330px;
+
+    border:2px solid #3C2313;
+}
+
+.contato  #local-img{
+    background-image: url(../img/local-footer.png);
+}
+
+
+.contato #local-img{
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 80px;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+.contato #tel-img{
+    background-image: url(../img/tel-footer.png);
+}
+
+.contato #tel-img{
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 80px;
+    margin-left: 74px;
+    margin-top: 20px;
+}
+
+.contato #email-img{
+    background-image: url(../img/email-footer.png);
+}
+
+.contato #email-img{
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 80px;
+    margin-left: 74px;
+    margin-top: 20px;
+    
+}
+
+.local{
+    padding: 5px;
+}
+
+.local h3{
+    margin-left: 80px;
+    padding-top: 5px;
+    color: white;
+}
+
+.local p{
+    text-align: center;
+    width: 80px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 70px;
+    padding-top: 5px;
+    color: #A0A0A0;
+
+}   
+
+
+
+
+.telefone h3{
+    margin-left: 80px;
+    padding-top: 5px;
+    color: white;
+}
+
+.telefone p{
+    text-align: center;
+    width: 100px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 80px;
+    padding-top: 5px;
+    color: #A0A0A0;
+
+}   
+
+
+.email h3{
+    margin-left: 80px;
+    padding-top: 5px;
+    color: white;
+}
+
+.email p{
+    text-align: center;
+    width: 100px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 45px;
+    padding-top: 5px;
+    color: #A0A0A0;
+
+}   
+
+footer #logo-footer{
+    background-image: url(../img/Logo.png);
+}
+
+.diretos{
+    font-size: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+
+    text-align: center;
+}
+
+.diretos p{
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+
+}

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.fixo {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.discont {
+    background: #1CD1B0;
+    height: 38px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+
+h1 {
+    background: #00669F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    height: 100px;
+    padding-top: 28px;
+    padding-left: 28px;
+    
+}
+
+
+main{
+    display: flex;
+    width: 100%;
+    height:598px;
+    justify-content: space-between;
+
+}
+
+.cards{
+display: flex;
+
+
+}
+
+.card-batman {
+
+    display: flex;
+    
+    width: 374px;
+    height: 597px;
+    justify-content: space-between;
+    margin-right: 86px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-img {
+    width: 374px;
+    height: 218px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+}
+
+.text-batman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 374px;
+}
+
+.text-batman h2 {
+    position: absolute;
+    top: 300px;
+    left: 137px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.text-batman p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    position: absolute;
+    width: 301.33px;
+    height: 127.53px;
+    left: 40px;
+    top: 360px;
+}
+
+.text-batman button {
+    background: #00669F;
+    color: #F3F3F3;
+    width: 145px;
+    height: 55px;
+
+    position: absolute;
+    left: 120px;
+    top: 500px;
+}
+
+.hero-image {
+    border-radius: 50%;
+    display:flex;
+    left: 119px;
+    top: 144px;
+}
+
+.heart {
+    display:flex;
+    top: 18px;
+    left: 24px;
+}
+
+
+.card-alerquina{
+    display: flex;
+    width: 374px;
+    height: 597px;
+    justify-content: space-between;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.hero-img2{
+    display: flex;
+    width: 374px;
+    height: 218px;
+    background-size: cover;
+    justify-content: center;
+   
+    
+  
+}
+
+.hero-image2{
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    justify-content: center;
+
+}
+
+.text-arlequina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:301px;
+    height: 127px;
+    top: 590px;
+    bottom: 616px;
+}
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    margin-top: 151px;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF9F9;
+    
+}
