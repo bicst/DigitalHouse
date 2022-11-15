@@ -101,5 +101,3 @@ const getCandy = (tempo) => {
     console.log('Pi Pi Pi... Finalizado!');
   }
 };
-
-microondas(5, 17);
